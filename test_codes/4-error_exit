@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -o errexit  # exit on ANY error
+
+tail NoSuchFile # tries to show bottom lines in NON-EXISTENT file
+echo -n "Enter text to be appended> "
+read txt
+echo $txt >> NoSuchFile
