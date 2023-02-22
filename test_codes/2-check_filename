@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# get name of file to be read
+
+echo -n "filename> "
+read $filename
+
+# check that file exists or exit
+
+if [ ! -f $filename ]; then
+    echo "No such file: $filename"
+    exit
+fi
