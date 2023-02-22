@@ -1,5 +1,4 @@
-Test Scripts
-# This contains a repository of scripts that i've collected that might help in some way or form.
+This contains a repository of scripts that i've collected that might help in some way or form.
 
 #1. This script replaces spaces with underscores and also as an alternative option, removes spaces altogether.
 
