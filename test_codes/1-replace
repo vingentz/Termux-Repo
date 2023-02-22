@@ -1,0 +1,16 @@
+#!/bin/bash
+# function to replace spaces in provided text with underscores
+
+replspaces () {
+  echo $@ | sed 's/ /_/g'
+}
+
+# function to remove spaces from the provided text
+
+dropspaces () { echo $@ | sed 's/ //g'; }
+
+# commands to call the functions defined above
+# replspaces "Hello World"
+# replspaces `date`
+# dropspaces "Hello World"
+# dropspaces `date`
